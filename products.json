@@ -1,0 +1,39 @@
+[
+      {
+        "productName": "Smartphone",
+        "productDescription": "A high-end smartphone with advanced features.",
+        "price": 799.99,
+        "status": "In stock",
+        "SKU": "ELP-12345"
+      },
+      {
+        "productName": "Laptop",
+        "productDescription": "A powerful laptop for work and gaming.",
+        "price": 1499.99,
+        "status": "In stock",
+        "SKU": "ELP-67890"
+      },
+      {
+        "productName": "Smart TV",
+        "productDescription": "A large-screen smart TV with 4K resolution.",
+        "price": 1299.99,
+        "status": "Out of stock",
+        "SKU": "ELP-24680"
+      },
+      {
+        "productName": "Wireless Headphones",
+        "productDescription": "Bluetooth headphones with noise cancellation.",
+        "price": 199.99,
+        "status": "In stock",
+        "SKU": "ELP-54321"
+      },
+      {
+        "productName": "Tablet",
+        "productDescription": "A compact tablet for entertainment and productivity.",
+        "price": 499.99,
+        "status": "In stock",
+        "SKU": "ELP-97531"
+      }
+    ]
+
+  

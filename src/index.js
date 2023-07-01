@@ -2,8 +2,10 @@
 require('dotenv').config();
 
 const express = require("express");
+const { dbConnection } = require ("./database/config") //importar cadena de conexion de base de datos
 const app = express();
 
+dbConnection();
 //middle ware
 app.use(express.json());
 
@@ -16,6 +18,7 @@ app.get("/api", (req, res) => {
 })
 
 app.use("/api/users", require("./routes/users.routes"))
+app.use("/api/products", require("./routes/products.routes"))
 
 // iniciar applicacion 
 app.listen(process.env.PORT, () => {
