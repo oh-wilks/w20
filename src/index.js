@@ -15,6 +15,8 @@ app.get("/api", (req, res) => {
     })
 })
 
+app.use("/api/users", require("./routes/users.routes"))
+
 // iniciar applicacion 
 app.listen(process.env.PORT, () => {
     console.log(`Server in port  ${process.env.PORT}`);

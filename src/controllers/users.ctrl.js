@@ -1,5 +1,4 @@
 // crear controlador CRUD
-
 const  getUsers = (req, res) => {
     return res.json({
         ok: true,
@@ -9,7 +8,6 @@ const  getUsers = (req, res) => {
 };
 
 // create 1 user 
-
 const createUser = (req, res) => {
     return res.json({
         ok: true, 
@@ -19,7 +17,6 @@ const createUser = (req, res) => {
 };
 
 // update 1 user
-
 const updateUser = (req, res) => {
     return res.json({
         ok: true,
@@ -29,11 +26,17 @@ const updateUser = (req, res) => {
 };
 
 // delete 1 user
-
 const deleteUsuer = (req, res) => {
     return res.json({
         ok: true,
         msg: "Usuario eliminado",
         data: {},
     });
+};
+// export controllers
+module.exports = {
+    getUsers,
+    createUser,
+    updateUser,
+    deleteUsuer,
 };
